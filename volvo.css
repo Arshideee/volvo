@@ -1,0 +1,189 @@
+.h-learn-more{
+    background-color: black;
+   color: white;
+    text-align: center;
+
+}
+.video-text{
+  top: 30%;
+  transform: translateY(-30%);
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    width: 35%;
+}
+.drive-text{
+    font-size: xx-large;
+    font-weight: 600;
+}
+.video-text a{
+    text-decoration: none;
+    color: black;
+     background-color: white;
+     padding: 10px 25px;
+     border-radius: 5px;
+     
+}
+@media screen and (max-width:780px) {
+    .drive-text{
+        font-size: x-large;
+        font-weight: 400;
+        margin-bottom: 1px;
+    }
+    .video-text{
+        width: 90%;
+       top: 20px;
+       line-height: 18px;
+    }
+    .video-text a{
+        padding: 5px;
+    }
+}
+.explor{
+    text-align: center;
+}
+.car-items{
+    margin-top: 15px;
+
+    
+}
+.car-card{
+    background-color:rgba(231, 231, 231, 0.801) ;
+    padding-top: 30px;
+   
+    
+}
+.car-card img{
+    width: 100%;
+}
+.compare-models{
+    text-align: center;
+}
+.area3{
+    background-color: rgb(240, 238, 241);
+}
+.learn-volvo a{
+    text-decoration: none;
+    color: rgb(28, 84, 129);
+    padding: 10px;
+    border: solid 1px rgb(28, 84, 129);
+    border-radius:3px ;
+    font-weight: 700;
+}
+.learn-volvo{
+    text-align: center;
+    
+}
+.learn-volvo a:hover{
+    background-color: rgb(28, 84, 129);
+    color: white;
+    border: solid 2px white;
+
+}
+.area4{
+    text-align: center;
+}
+.back-car1{
+    background-color:#fafafa ;
+    padding: 50px 5px 0px 0px;
+    border-radius: 5px;
+    width: 45%;
+}
+.back-car1 a{
+    text-decoration: none;
+   
+   
+}
+.back-car1 img{
+    width: 100%;
+}
+@media screen and (max-width:980px) {
+    .aaa{
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .back-car1{
+width: 100%;
+    }
+}
+.car-text{
+left: 100px;
+top: 300px;
+color: white;
+}
+.car-book a{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 9px 20px;
+    border-radius: 5px;
+    font-weight: 600;
+font-size: larger;
+}
+.car-book a:hover{
+    background-color: rgb(207, 201, 201);
+}
+.car-book{
+    left: 100px;
+    top: 400px;
+}
+@media screen and (min-width:1024px) {
+    .car-text{
+        width: 350px;
+    }
+}
+@media screen and (max-width:980px) {
+    .car-book{
+        left: 80px;
+        bottom: 70px;
+        top: auto
+    }
+    .car-text{
+        left:80px ;
+        top: 80px;
+    }
+}
+.area5-img img{
+    width: 100%;
+
+}
+.listflush ul li {
+    background-color: rgb(238, 238, 236);
+    justify-content: space-between;
+    display: flex;
+  }
+  .list-1{
+    width: 35%;
+  }
+  .listflush ul li {
+    background-color:white;
+    color: rgb(30, 30, 156);
+    padding: 20px 0px;
+  }
+  .quick-link{
+    font-weight: 600;
+    text-align: center;
+    font-size: xx-large;
+  }
+  @media screen and (max-width:980px) {
+   .list-1{
+    width: 90%;
+   }
+  }
+  .above-footer{
+    text-align: center;
+    margin-top: 50px;
+    font-size: small;color: rgb(46, 44, 44);
+   margin-bottom: 50px;
+  }
+  .nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    background-color: white;
+    color: black;
+    border-bottom: solid 1px black;
+    border-radius: 0px;
+  }
+  .nav-link {
+    color: black;
+  }
